@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,17 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  testDuration: number = 10000;
+  loaderActive: boolean = false;
+
+  constructor(private router: Router) {}
+
+  activateLoader() {
+    this.loaderActive = true;
+    setTimeout(() => {
+      this.loaderActive = false;
+      this.router.navigate(['/page-test']);
+    }, this.testDuration);
+  }
 
 }
