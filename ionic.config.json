@@ -1,0 +1,7 @@
+{
+  "name": "loaderIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
