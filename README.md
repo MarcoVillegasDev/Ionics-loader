@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-"# Ionics-loader" 
-=======
 ## Prueba técnica Frontend Developer
 
 Desarrollar un componente Web que tenga la funcionalidad de un loader. El loader tendrá una secuencia de imágenes con textos diferentes para cada imagen, estas se tendrán que ir cambiando cada cierto tiempo (configurable). El componente deberá tener dos configuraciones, cada una siguiendo una serie de imágenes específicas. 
@@ -12,4 +9,3 @@ Desarrollar un componente Web que tenga la funcionalidad de un loader. El loader
 * Una vez importado o incrustado el componente del loader, este no debe salir del componente de donde se use, sin embargo, DEBERA VERSE EN PANTALLA COMPLETA. 
 		
 Para la prueba del funcionamiento, debes hacer uso de un setTimeOut para simular la llamada a un proceso o un api. Se iniciará el loader y después del tiempo debera apagarse el loader y redireccionar a una ruta diferente. (importante la redirección a una ruta distinta)
->>>>>>> 24e0d1a8a0b31217e8143bd723318c3bfeeaba41
