@@ -6,6 +6,12 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
+  ion-button {
+    --background: #C73659;
+    color: #fff;
+    font-weight: bold;
+  }
 }
 
 #container strong {

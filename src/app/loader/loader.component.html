@@ -1,0 +1,8 @@
+<div class="full-screen-loader" >
+  <ion-content *ngIf="isLoaderActive">
+    <div class="loader-container">
+      <img *ngIf="images.length" [src]="images[currentImageIndex]" alt="Loading Image" />
+      <p *ngIf="texts.length">{{ texts[currentTextIndex] }}</p>
+    </div>
+  </ion-content>
+</div>
